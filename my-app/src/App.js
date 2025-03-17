@@ -7,7 +7,7 @@ import Loan from './pages/Loan';
 import AccountInfo from './pages/AccountInfo';
 import About from './pages/About';
 import Login from './pages/Login';
-import SignUp from './pages/Signup';
+import Signup from './pages/Signup';
 import Sidebar from './components/Sidebar';
 import Header from './components/Header';
 
@@ -21,7 +21,7 @@ const App = () => {
           <Routes>
             <Route path="/" element={<Login />} />
             <Route path="/login" element={<Login />} />
-            <Route path="/sign-up" element={<SignUp />} />
+            <Route path="/sign-up" element={<Signup />} />
             <Route path="/dashboard" element={<Dashboard />} />
             <Route path="/transactions" element={<Transactions />} />
             <Route path="/loan" element={<Loan />} />
